@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo com HTML, CSS e JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+    <h1>Roleta Russa Musical!</h1>
+    <p>Clique no botão para uma experiencia musical!</p>
+    <button id="meuBotao">Descubra a musica!</button>
+    
+<div id="avaliacao">
+    <h2>Avaliação da Música</h2>
+    <div>
+      <label for="estrelas">Avalie de 1 a 5 estrelas:</label>
+      <select id="estrelas">
+        <option value="1">1 estrela</option>
+        <option value="2">2 estrelas</option>
+        <option value="3">3 estrelas</option>
+        <option value="4">4 estrelas</option>
+        <option value="5">5 estrelas</option>
+      </select>
+      <button id="btnAvaliar">Avaliar</button>
+    </div>
+    <div id="mensagemAgradecimento" style="display: none;">
+        Obrigado pela sua avaliação!
+      </div>
+      <div id="musicaAvaliada" style="display: none;">
+        <strong>Música Avaliada:</strong> <span id="nomeMusica"></span>
+      </div>
+    </div>
+  
+ 
+
+  <script src="script.js"></script> 
+</div>
+</body>
+</html>
